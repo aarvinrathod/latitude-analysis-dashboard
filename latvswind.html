@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Weather Data</title>
+    <title>Weather Data - Lat vs Windspeed</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -40,22 +40,18 @@
     </div>
 </nav>
 
-
 <div class="container">
     <div class="row">
         <div class="col-md-8">
-            <h1 class="heading"> Summary: Latitude vs. X</h1>
+            <h1 class="heading"> Latitude vs. Wind Speed</h1>
                 <div class="row">
-                    <div class="col-md-4">
-                        <img src="assets/latvscloudiness.png" width=250px />
-                    </div>
-                    <div class="col-md-8">
-                        <p>The purpose of this project was the analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+                    <div class="col-md-12">
+                        <img src="assets/latvswind.png" width=600px />
                     </div>
                     <div class="col-md-12">
-                        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. lattitude. Factors we looked at included: temperature, cloudiness, wind speed and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explainations and descriptions of any trends and correlations witnessed.</p>
+                        <p>As it can be noted from the scatter plot - there seems to be no co-relation between latitude and windspeed</p>
                     </div>
-                </div>
+                </div>    
         </div>
         <div class="col-md-4">
             <h2 class="heading">Visualizations</h2>

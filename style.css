@@ -1,6 +1,9 @@
-h1 {
-    background-color: lightcyan;
+.heading {
+    background-color:lightgrey;
+    font-size: 40;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
 }
 body {
-    background-color: lightsalmon;
+    background-color: ghostwhite;
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Weather Data</title>
+    <title>Weather Data - Comparison</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -43,22 +43,52 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-8">
-            <h1 class="heading"> Summary: Latitude vs. X</h1>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="assets/latvscloudiness.png" width=250px />
-                    </div>
-                    <div class="col-md-8">
-                        <p>The purpose of this project was the analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-                    </div>
-                    <div class="col-md-12">
-                        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. lattitude. Factors we looked at included: temperature, cloudiness, wind speed and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explainations and descriptions of any trends and correlations witnessed.</p>
-                    </div>
-                </div>
+        <div class="col-md-12">
+            <h1 class="heading"> Comparison: Latitude vs. X</h1>
         </div>
-        <div class="col-md-4">
-            <h2 class="heading">Visualizations</h2>
+    </div>    
+    <div class="row"> 
+        <div class="col-md-6">
+            <h2 class="heading">vs. Temperature</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="latvstemp.html"> <img src="assets/latvstemp.png" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h2 class="heading">vs. Wind Speed</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="latvswind.html"> <img src="assets/latvswind.png" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row"> 
+        <div class="col-md-6">
+            <h2 class="heading">vs. Humidity</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="latvshumidity.html"> <img src="assets/latvshumidity.png" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h2 class="heading">vs. Cloudiness</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="latvscloudiness.html"> <img src="assets/latvscloudiness.png" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
+
+
+<!-- 
+
+
                 <div class="row">
                     <div class="col-md-6">
                         <a href="latvscloudiness.html"><img src="assets/latvscloudiness.png" width=175px /></a>
@@ -72,7 +102,7 @@
         </div>
     </div>
 </div>  
-   
+    -->
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
