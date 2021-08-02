@@ -17,3 +17,9 @@ body {
 
   .zoom:hover {
     transform: scale(1.5);}
+
+.nav {
+        background-color: lightskyblue;
+        font-size: medium;
+        font-weight: bolder;
+}
